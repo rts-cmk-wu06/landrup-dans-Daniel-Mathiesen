@@ -1,16 +1,6 @@
 import React from "react";
 import axios from "axios";
 
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/free-mode";
-
-// import required modules
-import { FreeMode } from "swiper";
-
 export default class ActivityCard extends React.Component {
     state = {
       classes: [],
@@ -28,16 +18,8 @@ export default class ActivityCard extends React.Component {
   
     render() {
       return (
-        <div>
-            <Swiper
-        direction={"vertical"}
-        slidesPerView={5}
-        spaceBetween={0}
-        freeMode={true}
-        modules={[FreeMode]}
-      >
+        <div className="px-8">
           {this.state.classes.map((Class) => (
-            <SwiperSlide>
             <a href={`/activity/${Class.id}`}>
             <div
               key={Class.id}
@@ -50,9 +32,7 @@ export default class ActivityCard extends React.Component {
               </div>
             </div>
             </a>
-            </SwiperSlide>
           ))}
-          </Swiper>
         </div>
       );
     }
