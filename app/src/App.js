@@ -9,6 +9,7 @@ import SearchPage from "./pages/Search";
 import CalenderPage from "./pages/Calender";
 import ActivityParticipantsDetailPage from "./pages/ActivityParticipantsDetail"
 import LoginPage from "./pages/Login";
+import NotFoundPage from "./pages/NotFound";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route exact path="/calender" element={<CalenderPage />} />
           <Route exact path="/calender/participants/:className/:classId" element={<ActivityParticipantsDetailPage />} />
           <Route exact path="/login" element={<LoginPage />} />
+          <Route path={'*'} element={<NotFoundPage />}  />
         </Routes>
     </Router>
     </div>
