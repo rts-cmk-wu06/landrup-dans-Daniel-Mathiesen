@@ -28,7 +28,7 @@ export default class ActivityCard extends React.Component {
   
     render() {
       return (
-        <div>
+        <div className="px-8">
             <Swiper
         direction={"vertical"}
         slidesPerView={5}
