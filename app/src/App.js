@@ -20,7 +20,7 @@ function App() {
           <Route exact path="/activity/:classId" element={<ActivityDetailPage />} />
           <Route exact path="/search" element={<SearchPage />} />
           <Route exact path="/calender" element={<CalenderPage />} />
-          <Route exact path="/calender/participants/:classId" element={<ActivityParticipantsDetailPage />} />
+          <Route exact path="/calender/participants/:className/:classId" element={<ActivityParticipantsDetailPage />} />
           <Route exact path="/login" element={<LoginPage />} />
         </Routes>
     </Router>
