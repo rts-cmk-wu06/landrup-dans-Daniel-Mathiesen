@@ -2,6 +2,10 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Axios from "axios";
 
+// Components
+import Menu from "../components/Menu";
+
+
 const DetailPage = () => {
     
     const { classId } = useParams();
@@ -46,6 +50,9 @@ const DetailPage = () => {
             {Class.minAge + " - " + Class.maxAge} år
           </h2>
           <p className="mt-5 font-bold text-lg">{Class.description}</p>
+        </div>
+        <div>
+            <Menu/>
         </div>
       </div>
     );
