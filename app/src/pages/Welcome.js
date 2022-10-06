@@ -10,7 +10,7 @@ const WelcomePage = () => {
                 </div>
                     <div className='flex justify-center -translate-y-24'>
                         <Link to="/activities">
-                            <button className='bg-landrupPurple text-white py-4 px-28 rounded-xl'>Kom i gang</button>
+                            <button className='bg-landrupPurple text-white py-4 px-28 rounded-xl opacity-0 animate-fadeIn'>Kom i gang</button>
                         </Link>
                     </div>
             </div>
