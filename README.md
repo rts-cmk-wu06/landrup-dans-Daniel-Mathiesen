@@ -44,6 +44,7 @@ https://trello.com/b/gyKMvvDN/landrupdans
 
 Min deploy process foregår gennem netlify, der automatisk opdatere/builder min netlify side, når der kommer nye changes til mit projekt. (I dette tilfælde min fork)
 
+![netlifyDeploy](https://cdn.discordapp.com/attachments/560102203608793088/1027888778385301581/unknown.png)
 
 ## Tech-Stack perspektivering:
 
