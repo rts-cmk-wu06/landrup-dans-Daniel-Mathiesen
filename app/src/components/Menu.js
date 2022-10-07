@@ -11,19 +11,19 @@ const Footer = () => {
       <div className="w-full h-[66px] bottom-0 bg-white fixed z-50 flex items-center ">
         <div className="flex justify-evenly w-full gap-9">
           <div className="border-2 border-black text-2xl rounded-full w-10 h-10 pl-[1.5%] pt-1">
-        <Link to="/activities">
-            <FiHome />
-        </Link>
+            <Link to="/activities">
+              <FiHome />
+            </Link>
           </div>
           <div className="border-2 border-black text-2xl rounded-full w-10 h-10 pl-[1.5%] pt-1">
-        <Link to="/search">
-            <FiSearch />
-        </Link>  
+            <Link to="/search">
+              <FiSearch />
+            </Link>
           </div>
           <div className="border-2 border-black text-2xl rounded-full w-10 h-10 pl-[1.5%] pt-1">
-        <Link to="/calender">
-            <FiCalendar />
-        </Link>
+            <Link to="/calender">
+              <FiCalendar />
+            </Link>
           </div>
         </div>
       </div>
